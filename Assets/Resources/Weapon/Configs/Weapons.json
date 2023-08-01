@@ -1,0 +1,61 @@
+{
+    "$id": 0,
+    "$type": "0|WeaponSystem.Data.WeaponConfig, Assembly-CSharp",
+    "weapons": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[WeaponSystem.Data.WeaponBase, Assembly-CSharp]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|WeaponSystem.Data.WeaponBase, Assembly-CSharp",
+                "id": 11,
+                "name": "\u6b66\u56681",
+                "description": null,
+                "icon": null,
+                "cost": 5,
+                "resource": 1000,
+                "resourceType": 0,
+                "moveSpeed": 50,
+                "moveDirection": {
+                    "$type": "3|UnityEngine.Vector3, UnityEngine.CoreModule",
+                    1,
+                    0,
+                    0
+                },
+                "damage": 5,
+                "damageDuration": 0,
+                "firingInterval": 1,
+                "emissionType": 1,
+                "weaponPrefab": "Weapon1",
+                "bulletPrefab": "Bullet1"
+            },
+            {
+                "$id": 3,
+                "$type": 2,
+                "id": 12,
+                "name": "\u6b66\u56682",
+                "description": null,
+                "icon": null,
+                "cost": 100,
+                "resource": 1000,
+                "resourceType": 1,
+                "moveSpeed": 30,
+                "moveDirection": {
+                    "$type": 3,
+                    1,
+                    0,
+                    0
+                },
+                "damage": 50,
+                "damageDuration": 0,
+                "firingInterval": 2,
+                "emissionType": 0,
+                "weaponPrefab": "Weapon2",
+                "bulletPrefab": "Bullet2"
+            }
+        ]
+    },
+    "defaultWeapon": 11,
+    "loopSelect": true
+}
